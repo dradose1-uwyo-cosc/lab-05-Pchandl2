@@ -4,6 +4,7 @@
 # Lab 05 
 # Lab Section: 11
 # Sources, people worked with, help given to: A friend of mine Maria helped me when I was stuck on the first problem
+#emanuel helped out with incorrect comparison that caused the min temp to be incorrect
 # your
 # comments
 # here
@@ -102,7 +103,7 @@ for temp in max_temps:
         max_temp = temp
 
 for temp in min_temps:
-    if temp > min_temp:
+    if temp < min_temp:
         min_temp = temp
 print(f"Max temp = {max_temp}")
 print(f"Min temp = {min_temp}")
